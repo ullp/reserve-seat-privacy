@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Seat and Parking - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8fafc;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2563eb;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #1e293b;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            color: #334155;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        .last-updated {
+            color: #64748b;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .contact-info {
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 30px;
+            border-left: 4px solid #2563eb;
+        }
+        .footer-note {
+            font-size: 0.85em;
+            color: #64748b;
+            margin-top: 30px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="last-updated">Last Updated: February 14, 2026</div>
+
+        <h2>Introduction</h2>
+        <p>Reserve Seat and Parking ("we", "us", or "our") operates the Reserve Seat and Parking mobile application (the "Service").</p>
+        <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
+
+        <h2>Information We Collect</h2>
+        
+        <h3>Personal Information</h3>
+        <p>When you register for an account or use our Service, we may collect the following information:</p>
+        <ul>
+            <li><strong>Name</strong>: Your full name for account identification</li>
+            <li><strong>Email Address</strong>: Used for account registration, login, and communication</li>
+            <li><strong>Password</strong>: Securely stored for account authentication</li>
+            <li><strong>User Role</strong>: Whether you are an admin or regular user</li>
+        </ul>
+
+        <h3>Usage Data</h3>
+        <p>We may also collect information about how the Service is accessed and used ("Usage Data"). This Usage Data may include:</p>
+        <ul>
+            <li><strong>Device Information</strong>: Information about the device you use to access the Service</li>
+            <li><strong>Log Data</strong>: Information about your interactions with the Service, including access times and features used</li>
+        </ul>
+
+        <h3>Booking Information</h3>
+        <p>When you make reservations through our Service, we collect:</p>
+        <ul>
+            <li><strong>Office Selection</strong>: Which office location you are booking for</li>
+            <li><strong>Resource Type</strong>: Whether you're booking a seat or parking space</li>
+            <li><strong>Resource Details</strong>: Specific seat number, room name, or parking spot</li>
+            <li><strong>Booking Times</strong>: Start and end times for your reservations</li>
+            <li><strong>Booking History</strong>: Your past and current reservations</li>
+        </ul>
+
+        <h3>Subscription and Purchase Information</h3>
+        <p>If you subscribe to a premium plan, we additionally process the plan (monthly or annual), a purchase token issued by the store or by our backend, the purchase and expiry dates, and whether the subscription was cancelled.</p>
+        <p><strong>We never receive or store your card number, bank details or store account password.</strong> Payments are processed by Apple (App Store / StoreKit) or Google (Google Play Billing) under their own privacy policies; we only receive a purchase token and the resulting entitlement status.</p>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the collected information for various purposes:</p>
+        <ul>
+            <li><strong>Account Management</strong>: To create and manage your user account</li>
+            <li><strong>Authentication</strong>: To verify your identity and provide secure access</li>
+            <li><strong>Service Functionality</strong>: To enable seat and parking space reservations</li>
+            <li><strong>User Management</strong>: For administrators to manage users and office configurations</li>
+            <li><strong>Communication</strong>: To send important notifications about your account or the Service</li>
+            <li><strong>Service Improvement</strong>: To analyze usage patterns and improve our Service</li>
+        </ul>
+
+        <h2>Data Storage and Security</h2>
+        
+        <h3>Storage Location</h3>
+        <p>Your personal data is stored in a managed PostgreSQL database hosted by <strong>Supabase</strong> (see "Third-Party Services and Processors" below). Data is transmitted over TLS. Some data (your name, e-mail, office layout and your own bookings) is also cached in your browser's LocalStorage so the app can work offline; this cache is cleared when you sign out.</p>
+
+        <h3>Data Retention</h3>
+        <table style="width:100%; border-collapse: collapse; margin-bottom: 15px;">
+            <thead>
+                <tr>
+                    <th style="text-align:left; border-bottom: 1px solid #e2e8f0; padding: 8px 4px;">Data</th>
+                    <th style="text-align:left; border-bottom: 1px solid #e2e8f0; padding: 8px 4px;">Retention period</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 8px 4px;">Account (name, e-mail, role, verification state)</td>
+                    <td style="padding: 8px 4px;">Until you or an administrator deletes the account</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;">Bookings</td>
+                    <td style="padding: 8px 4px;">24 months from the booking date, then deleted</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;">Subscription and purchase records</td>
+                    <td style="padding: 8px 4px;">While the subscription exists, then as required by tax and accounting law</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;">Browser LocalStorage cache</td>
+                    <td style="padding: 8px 4px;">Cleared on sign-out</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Backups are kept for up to 30 days and are purged on a rolling basis.</p>
+
+        <h3>Security Measures</h3>
+        <p>We implement appropriate security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information. These measures include:</p>
+        <ul>
+            <li>Secure authentication protocols</li>
+            <li>Encrypted data transmission</li>
+            <li>Access controls and monitoring</li>
+        </ul>
+
+        <h2>Data Sharing and Disclosure</h2>
+        <p>We do not sell, trade, or otherwise transfer your Personal Information to third parties, except in the following circumstances:</p>
+
+        <h3>With Your Consent</h3>
+        <p>We may share your information when we have your explicit consent to do so.</p>
+
+        <h3>For Legal Reasons</h3>
+        <p>We may disclose your information if required to do so by law or in response to valid requests by public authorities.</p>
+
+        <h3>Business Transfers</h3>
+        <p>If Reserve Seat and Parking is involved in a merger, acquisition, or asset sale, your Personal Data may be transferred. We will provide notice before your personal information is transferred and becomes subject to a different privacy policy.</p>
+
+        <h2>Your Data Protection Rights</h2>
+        <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+        <ul>
+            <li><strong>Access</strong>: Request copies of your personal data</li>
+            <li><strong>Rectification</strong>: Request correction of inaccurate data</li>
+            <li><strong>Erasure</strong>: Request deletion of your personal data</li>
+            <li><strong>Restriction</strong>: Request restriction of processing your personal data</li>
+            <li><strong>Objection</strong>: Object to processing of your personal data</li>
+            <li><strong>Portability</strong>: Request transfer of your data to another organization</li>
+        </ul>
+        <p>To exercise these rights, please contact us at <a href="mailto:ullmann.web@gmail.com">ullmann.web@gmail.com</a>. We respond within 30 days.</p>
+
+        <h3>How to delete your data</h3>
+        <ol>
+            <li><strong>In the app</strong>: an administrator can delete a user under Admin &rarr; Users, which removes the account row and its bookings.</li>
+            <li><strong>By e-mail</strong>: send a deletion request to <a href="mailto:ullmann.web@gmail.com">ullmann.web@gmail.com</a> from the address you registered with. We confirm receipt, delete the account, its bookings and its subscription records, and reply once the deletion is complete (within 30 days).</li>
+        </ol>
+        <p>Bookings are otherwise deleted automatically 24 months after the booking date.</p>
+
+        <h2>Third-Party Services and Processors</h2>
+        <p>We share personal data only with the processors required to run the Service. Each processor is bound by a data-processing agreement and may use the data only on our instructions.</p>
+        <table style="width:100%; border-collapse: collapse; margin-bottom: 15px;">
+            <thead>
+                <tr>
+                    <th style="text-align:left; border-bottom: 1px solid #e2e8f0; padding: 8px 4px;">Processor</th>
+                    <th style="text-align:left; border-bottom: 1px solid #e2e8f0; padding: 8px 4px;">Purpose</th>
+                    <th style="text-align:left; border-bottom: 1px solid #e2e8f0; padding: 8px 4px;">Data involved</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 8px 4px;"><strong>Supabase</strong></td>
+                    <td style="padding: 8px 4px;">Database, authentication, realtime sync</td>
+                    <td style="padding: 8px 4px;">Account, booking and subscription records</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;"><strong>Apple Inc.</strong></td>
+                    <td style="padding: 8px 4px;">iOS distribution and in-app purchase</td>
+                    <td style="padding: 8px 4px;">Purchase token, entitlement status</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;"><strong>Google LLC</strong></td>
+                    <td style="padding: 8px 4px;">Android distribution and in-app purchase</td>
+                    <td style="padding: 8px 4px;">Purchase token, entitlement status</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;"><strong>GitHub, Inc.</strong></td>
+                    <td style="padding: 8px 4px;">Hosting of this published privacy policy</td>
+                    <td style="padding: 8px 4px;">None (static page)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>We do not sell personal data, we do not use it for advertising, and we do not use third-party analytics or tracking SDKs in this release.</p>
+        <p>Some processors are located outside the EEA. Where personal data is transferred outside the EEA we rely on the European Commission's Standard Contractual Clauses or an adequacy decision.</p>
+        <p>Our Service may contain links to third-party websites or services that are not operated by us. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>Our Service does not address anyone under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us. If we become aware that we have collected personal information from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+        <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy, please contact us:</p>
+            <ul>
+                <li><strong>Email</strong>: <a href="mailto:ullmann.web@gmail.com">ullmann.web@gmail.com</a></li>
+                <li><strong>Address</strong>: Reserve Seat and Parking Development Team</li>
+            </ul>
+        </div>
+
+        <h2 id="imprint">Data Controller and Imprint</h2>
+        <p>The <strong>data controller</strong> for the personal data described in this policy is:</p>
+        <ul>
+            <li><strong>Provider</strong>: Reserve Seat and Parking Development Team</li>
+            <li><strong>Contact e-mail</strong>: <a href="mailto:ullmann.web@gmail.com">ullmann.web@gmail.com</a></li>
+            <li><strong>Postal address</strong>: Reserve Seat and Parking Development Team</li>
+            <li><strong>Content responsibility</strong>: Reserve Seat and Parking Development Team</li>
+        </ul>
+        <p>We act as the controller. The technical processors that store or transmit data on our behalf are listed under "Third-Party Services and Processors" above; they act on our instructions and are not independent controllers of your data.</p>
+        <p>For any data protection inquiries or to exercise your data subject rights, please contact us using the information provided above.</p>
+
+        <div class="footer-note">
+            This privacy policy is effective as of February 14, 2026, and applies to the Reserve Seat and Parking mobile application.
+        </div>
+    </div>
+</body>
+</html>
