@@ -122,6 +122,9 @@
         <h3>Storage Location</h3>
         <p>Your personal data is stored in a managed PostgreSQL database hosted by <strong>Supabase</strong> (see "Third-Party Services and Processors" below). Data is transmitted over TLS. Some data (your name, e-mail, office layout and your own bookings) is also cached in your browser's LocalStorage so the app can work offline; this cache is cleared when you sign out.</p>
 
+        <h3>E-mail</h3>
+        <p>We send a small number of transactional messages &mdash; account confirmation and password reset &mdash; to the address on your account. Delivery is handled by <strong>FORPSI</strong> (see "Third-Party Services and Processors" below), which receives the recipient address and the message content in order to deliver it. These are the only messages the Service sends: there is no newsletter, no marketing and no other e-mail, and you cannot receive one without having registered an account.</p>
+
         <h3>Data Retention</h3>
         <table style="width:100%; border-collapse: collapse; margin-bottom: 15px;">
             <thead>
@@ -207,6 +210,12 @@
                     <td style="padding: 8px 4px;">Database, authentication, realtime sync</td>
                     <td style="padding: 8px 4px;">Account, booking and subscription records</td>
                     <td style="padding: 8px 4px;">AWS <code>eu-west-2</code> (London, United Kingdom)</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px;"><strong>FORPSI</strong></td>
+                    <td style="padding: 8px 4px;">Sending authentication e-mail (account confirmation, password reset) over SMTP</td>
+                    <td style="padding: 8px 4px;">Your e-mail address, and the content of the message sent to you</td>
+                    <td style="padding: 8px 4px;">Czech Republic (EU)</td>
                 </tr>
                 <tr>
                     <td style="padding: 8px 4px;"><strong>Apple Inc.</strong></td>
